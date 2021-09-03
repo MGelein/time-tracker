@@ -5,6 +5,7 @@ who do not need to track hours (or who use normal software for this).
 # Getting Started
 It is recommended that you clone this repository to install it. This tool is best installed globally by running
 the following command inside of the root of the repository:
+
 ```npm i ./```
 
 # Usage
