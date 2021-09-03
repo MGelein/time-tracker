@@ -2,16 +2,21 @@
 Whatever you want to call it, it is a small command line utility written in NodeJS. Probably useless to most people 
 who do not need to track hours (or who use normal software for this).
 
+# Getting Started
+It is recommended that you clone this repository to install it. This tool is best installed globally by running
+the following command inside of the root of the repository:
+```npm i ./```
+
 # Usage
 Using this application, you can track your time in a global register. In this help menu,
 all keywords are blue, all user-defined values are purle. Times are expected in ${bold('HH:MM.
  
-```register start|-s [TIME?]```       
+```register start|-s [TIME?]```
 starts a new day at an optional time, otherwise 
 rounds to nearest quarter. Completely wipes the 
 previous register.
 
-```register [NAME] [TIME?]```        
+```register [NAME] [TIME?]```
 adds the end time of a project to the register. 
 Optionally add end time, to overwrite rounding to 
 nearest quarter.
