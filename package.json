@@ -2,7 +2,12 @@
   "name": "hourtracker",
   "version": "0.1.0",
   "description": "Track hours you spend on projects",
+  "homepage": "https://github.com/MGelein/time-tracker/#readme",
   "main": "register.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MGelein/time-tracker.git"
+  },
   "bin": {
     "register": "./index.js",
     "track-hours": "./index.js"
