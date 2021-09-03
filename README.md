@@ -6,7 +6,7 @@ who do not need to track hours (or who use normal software for this).
 It is recommended that you clone this repository to install it. This tool is best installed globally by running
 the following command inside of the root of the repository:
 
-```npm i ./```
+```npm i -g ./```
 
 # Usage
 Using this application, you can track your time in a global register. In this help menu,
