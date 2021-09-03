@@ -1,0 +1,20 @@
+{
+  "name": "hourtracker",
+  "version": "0.1.0",
+  "description": "Track hours you spend on projects",
+  "main": "register.js",
+  "bin": {
+    "register": "./index.js",
+    "track-hours": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hours",
+    "tracking",
+    "register"
+  ],
+  "author": "Mees Gelein",
+  "license": "MIT"
+}
