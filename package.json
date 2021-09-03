@@ -9,8 +9,8 @@
     "url": "https://github.com/MGelein/time-tracker.git"
   },
   "bin": {
-    "register": "./index.js",
-    "track-hours": "./index.js"
+    "register": "./register.js",
+    "track-hours": "./register.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,6 @@
     "register"
   ],
   "author": "Mees Gelein",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
