@@ -35,3 +35,5 @@ removes the last entry you made into the registry.
 ```register list|ls|-l```
 lists all entries you have made into your register.
   
+```register help|?|-h```
+displays the help menu.
