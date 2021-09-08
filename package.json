@@ -1,6 +1,6 @@
 {
   "name": "hourtracker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Track hours you spend on projects",
   "homepage": "https://github.com/MGelein/time-tracker/#readme",
   "main": "register.js",
