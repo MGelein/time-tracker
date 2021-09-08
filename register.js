@@ -103,7 +103,13 @@ function generateCalculation() {
 function prettyPrintProjectRegistry(registry) {
   const projectNames = Object.keys(registry);
   projectNames.sort((nameA, nameB) => registry[nameB] - registry[nameA]);
-  const lines = projectNames.map((name) => `${bold(purple(registry[name] + "h"))}\t${blue(name)}`);
+  const lines = projectNames.map((name) => {
+    if (ignoreItems.includes(name.toLowerCase())) {
+      return `${registry[name] + "h"}\t${name}`;
+    } else {
+      return `${bold(purple(registry[name] + "h"))}\t${blue(name)}`;
+    }
+  });
 
   console.log(header("Overview"));
   console.log(lines.join("\n"));
